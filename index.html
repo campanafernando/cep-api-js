@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>API</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <div class="login">
+            <h1>Identificador de CEP</h1>
+                <input type="text" id="estado" placeholder="Qual o seu estado? ex: MG"/>
+                <input type="text" id="cidade" placeholder="Qual a sua cidade? ex: Belo Horizonte"/>
+                <input type="text" id="rua" placeholder="Qual sua rua ou logradouro?"/>
+                <button class="btn btn-primary btn-block btn-large" onclick="getCity()">Pesquisar</button>
+                <div class="resultado">
+                    <span id="cepfinder">
+                        Certifique-se de escrever os dados corretamente!
+                    </span>
+                </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
